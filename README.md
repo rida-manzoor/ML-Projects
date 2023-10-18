@@ -6,3 +6,6 @@ In this repository, different machine-learning projects are uploaded. All projec
 
 
 >Brest_cancer: The breast cancer dataset is used from the sklearn library in this file. It has two output labels, 0 for malignant and 1 for benign. Gaussian Naive Bayes is used for this data. Accuracy, recall, precision, and f1_score are used as evaluation metrics.
+
+
+>Text_data: In this file, the sample text data file has 2 columns, document and label. and have two labels, positive and negative. Firstly Naive Bayes is applied using BOW and evaluation and prediction are performed. Then Naive Bayes is applied using TFIDF and model evaluation and prediction is performed.
