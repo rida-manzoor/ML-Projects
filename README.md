@@ -18,8 +18,10 @@ In this repository, different machine-learning projects are uploaded. All projec
 
 >breast_cancer: This file uses The breast cancer dataset from the sklearn library. It has two output labels, 0 for malignant and 1 for benign. KNN is used for this data. GridSearchCV is used to find the best parameter. Accuracy, recall, precision, and f1_score are used as evaluation metrics.
 
->Titanic: In this file titanic dataset is used. It is an end-to-end project. Firstly, EDA is performed which includes missing value imputation, feature engineering, and encoding. Then cross-validation is used five-fold. Logistic Regression is used for prediction. Lately, GridSearchCV has been used for hyperparameter tuning. Lastly, the model is saved and deployed using Streamlit.
+>Titanic: In this file, the Titanic dataset is used. It is an end-to-end project. Firstly, EDA includes missing value imputation, feature engineering, and encoding. Then cross-validation is used five-fold. Logistic Regression is used for prediction. Lately, GridSearchCV has been used for hyperparameter tuning. Lastly, the model is saved and deployed using Streamlit.
 
->KNN2: This file uses two sklearn built-in datasets, MNIST and IRIS. Both datasets are already machine-ready so data is scaled and KNN is applied to both. The accuracy metric is used for model evaluation.
+>KNN2: This file uses two sklearn built-in datasets, MNIST and IRIS. Both datasets are machine-ready, so data is scaled and KNN is applied to both. The accuracy metric is used for model evaluation.
 
 >smsspam: This is an NLP task of binary classification. Firstly, data is cleaned, removing digits, stop words, html tags and others. Then data is tokenized using nltk library. Later, TfidfVectorizer is used. At last, MultinomialNavieBayes is used for training. Accuracy and F1_score are used as evaluation metrics.
+
+>Heart: This notebook is an end-to-end implementation of heart disease prediction. A dataset is taken from Kaggle, it has 11 features. Basic EDA is performed. Firstly Logistic regression is performed with cross-validation. It gives an 85 F1-Score. Then ensemble was used it enhance the F1-score to 90. The model is deployed using Streamlit.
